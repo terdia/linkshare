@@ -1,16 +1,21 @@
-# Legato PHP Framework
-[![Build Status](https://travis-ci.org/terdia/legato.svg?branch=master)](https://travis-ci.org/terdia/legato)
-[![Maintainability](https://api.codeclimate.com/v1/badges/43a822fd888750a58205/maintainability)](https://codeclimate.com/github/terdia/legato/maintainability)
-## About Legato
+# LinkShare
+
+## Installation
+
+Step 1: Clone the project 
+
+Step 2: Copy .env.example to .env and update your credentials 
+
+Step 3: Run composer install from inside the project folder 
 
 Legato is a web application framework that seats on the shoulders 
 of giants like symfony and laravel, when you need a lightweight framework for PHP development. 
 
 ## Documentation
 
-[Stable](http://bit.ly/2ke1fwh) 
+[Legato Documentation](http://bit.ly/2ke1fwh) 
 
-[Stabled and Versioned Docs](http://bit.ly/2IyIbaF) 
+[Legato Documentation on read the docs](http://bit.ly/2IyIbaF) 
 
 ## Learning Legato
 
@@ -21,7 +26,6 @@ of giants like symfony and laravel, when you need a lightweight framework for PH
 ## Contributing
 
 Thank you for considering contributing to the Legato framework! Feel free to create a pull request.
-The contribution guide will be released soon.
 
 ## Security Vulnerabilities
 
@@ -32,5 +36,5 @@ All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Legato framework is open-sourced software 
+The Linkshare project is open-sourced software 
 licensed under the [MIT license](https://opensource.org/licenses/MIT).
