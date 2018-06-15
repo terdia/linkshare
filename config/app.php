@@ -15,7 +15,7 @@ return [
         'activation' => ['activated' => 1], //column name => value
     ],
     'encryption' => [
-        'key' => 'euyq74taeoqiertpeuyq74taeoqiertp',
+        'key' => 'euyq74taeoqiertp',
         'cipher' => 'AES-128-CBC'
     ]
 ];
