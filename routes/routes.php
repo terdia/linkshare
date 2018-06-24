@@ -19,3 +19,11 @@ Route::get('/logout', 'App\Controllers\AuthController@logout', 'logout');
 Route::get('/links', function (){
     return view('links/index');
 }, 'link_index');
+
+Route::group('/admin', function (){
+   Route::add('GET', '/channel', 'App\Controllers\ChannelController@show');
+   Route::add('POST', '/channel', 'App\Controllers\ChannelController@save');
+
+    Route::add('GET', '/subchannel', 'App\Controllers\SubChannelController@show');
+    Route::add('POST', '/subchannel', 'App\Controllers\SubChannelController@save');
+});
